@@ -14,11 +14,21 @@ a:hover, i:hover, .lag{
 	text-decoration: none;
 }
 
+
 .main{
 	background-image: url(../imagens/banner.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100%;
+	position: relative;
+}
+
+input:invalid {
+	border: 2px solid red;
+}
+
+input:valid {
+	border: 2px solid green;
 }
 
 header{
